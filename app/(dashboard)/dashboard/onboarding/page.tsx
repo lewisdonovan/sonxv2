@@ -20,6 +20,7 @@ export default function getStarted() {
     <QuestProvider
       apiKey={apikey}
       entityId={entityId}
+      apiType='STAGING'
     >
       <OnBoarding
         questId={questId}
@@ -47,7 +48,7 @@ export default function getStarted() {
         singleChoose="modal1"
         multiChoice={"modal1"}
         
-        styleConfig={{ Heading: {}, Description: {}, Input: {},Form:{background:"#708090"} }}
+        styleConfig={{ Heading: {}, Description: {}, Input: {},Form:{background:"white"} }}
       />
     </QuestProvider>
     </DashboardShell>

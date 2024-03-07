@@ -16,6 +16,7 @@ export default function streaks() {
       <QuestProvider
         apiKey={apikey}
         entityId={entityId}
+        apiType='STAGING'
         themeConfig={{
           backgroundColor: "",
           borderColor: "",

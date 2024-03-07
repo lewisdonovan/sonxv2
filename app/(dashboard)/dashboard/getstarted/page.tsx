@@ -16,7 +16,7 @@ export default function getStarted() {
                 heading="Get started"
                 text="Manage get started."
             />
-            <QuestProvider apiKey={apikey} entityId={entityId} featureFlags={{}} themeConfig={{}} >
+            <QuestProvider apiKey={apikey} entityId={entityId} featureFlags={{}} themeConfig={{}} apiType='STAGING'>
                 <GetStarted
                     questId={questId}
                     token={token}

@@ -17,12 +17,13 @@ export default function referrals() {
     <QuestProvider
       apiKey={apikey}
       entityId={entityId}
+      apiType='STAGING'
     >
       <Referral
         questId={questId}
         token={token}
         userId={userId}
-     styleConfig={{Form:{background:"#708090"}}}
+     styleConfig={{Form:{background:"white"}}}
         // To run below props run on the local react app
         onClose={() => setOpen(false)}
         

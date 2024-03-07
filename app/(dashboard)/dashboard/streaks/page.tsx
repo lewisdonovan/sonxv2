@@ -3,7 +3,7 @@
 import { DailyStreak, QuestProvider } from "@questlabs/react-sdk"
 
 import "@questlabs/react-sdk/dist/style.css"
-import "../../styles/quest.css"
+import "../../../../styles/quest.css"
 import { DashboardHeader } from "@/components/header"
 import { DashboardShell } from "@/components/shell"
 

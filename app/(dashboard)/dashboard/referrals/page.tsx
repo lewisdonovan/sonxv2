@@ -3,7 +3,7 @@
 import { QuestProvider,  Referral } from "@questlabs/react-sdk"
 import { apikey, entityId, questId, token, userId } from "./config"
 import "@questlabs/react-sdk/dist/style.css"
-import "../../styles/quest.css"
+import "../../../../styles/quest.css"
 import { DashboardShell } from "@/components/shell"
 import { DashboardHeader } from "@/components/header"
 
@@ -17,8 +17,6 @@ export default function referrals() {
     <QuestProvider
       apiKey={apikey}
       entityId={entityId}
-      apiSecret=""
-      apiType="STAGING"
     >
       <Referral
         questId={questId}

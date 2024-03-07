@@ -27,27 +27,31 @@ export const dashboardConfig: DashboardConfig = {
       title: "Settings",
       href: "/dashboard/settings",
       icon: "settings",
-    },,{
+    },
+    {
       title:"Onboarding",
-      href: "dashboard/onboarding",
-      icon: "onboarding",
-    },{
+      href: "/dashboard/onboarding",
+      // icon: "onboarding",
+    },
+    {
       title:"Referrals",
-      href: "dashboard/referrals",
-      icon: "referrals",
-    },{
-      title:"Getstarted",
-      href:"dashboard/getstarted",
-      icon:"getstarted"
-    },{
+      href: "/dashboard/referrals",
+     // icon: "referrals",
+    },
+    {
+      title:"Get Started",
+      href:"/dashboard/getstarted",
+     // icon:"getstarted"
+    },
+    {
       title:"Tasklist",
-      href:"dashboard/task-list",
-      icon:"tasklist"
+      href:"/dashboard/task-list",
+     // icon:"tasklist"
     },
     {
       title:"Streaks",
-      href:"dashboard/streaks",
-      icon:"tasklist"
+      href:"/dashboard/streaks",
+    //  icon:"tasklist"
     }
   ],
 }

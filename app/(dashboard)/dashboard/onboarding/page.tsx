@@ -2,10 +2,9 @@
 
 import React, { useState } from "react"
 import { OnBoarding, QuestProvider } from "@questlabs/react-sdk"
-
-import "@questlabs/react-sdk/dist/style.css"
-import "../../styles/quest.css"
 import { apikey, entityId, questId, token, userId } from "./config"
+import "@questlabs/react-sdk/dist/style.css"
+import "../../../../styles/quest.css"
 import { DashboardShell } from "@/components/shell"
 import { DashboardHeader } from "@/components/header"
 
@@ -21,10 +20,6 @@ export default function getStarted() {
     <QuestProvider
       apiKey={apikey}
       entityId={entityId}
-      apiType="STAGING"
-      featureFlags={{}}
-      themeConfig={{}}
-      apiSecret=""
     >
       <OnBoarding
         questId={questId}
